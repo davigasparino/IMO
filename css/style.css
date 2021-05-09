@@ -1,8 +1,52 @@
+h1, h2, h3, h4, h5, h6{
+    background: -webkit-linear-gradient(#309B93, #2B5180);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+body, p, h1, h2, h3, h4, h5, h6{
+    font-family: 'Jost', sans-serif;
+}
+
 #home-carousel .carousel-inner .carousel-item img {
     height: 768px;
     object-fit: cover;
 }
-
+#home-carousel .carousel-inner h2{
+    color: #fff;
+    -webkit-text-fill-color: #fff;
+}
+#box-home-items .btn.btn-imo{
+    font-size: 25px;
+}
+#list-collapse-query li:hover{
+    background-color: #fcfcfc;
+}
+#list-collapse-query a:hover{
+    color: #2361ae;
+}
+#list-collapse-query a{
+    width: 100%;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: #2B5180;
+}
+#box-home-items{
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    z-index: 12;
+    width: 30%;
+}
+.btn-imo:hover{
+    color: #fff;
+    background-color: #2361ae;
+    transition: .5s;
+}
+.btn-imo{
+    background-color: #2B5180;
+    color: #fff;
+}
 #quemsomos .btn-item-2-row-2 img{
     object-fit: cover;
     height: 130px;
@@ -13,7 +57,73 @@
     min-height: 100%;
 }
 
-@media screen and (max-width: 990px){
+.top-header, #bottom-imo{
+    background-color: #2B5180;
+}
+
+.collapse.navbar-collapse.top-main{
+    justify-content: flex-end;
+}
+
+.navbar-brand img{
+    width: auto;
+    height: auto;
+}
+
+.bg-light-imo{
+    background-color: #e1e1e1;
+}
+
+.top-phones .collapse.navbar-collapse.top-main ul li span.material-icons{
+    color: #fff;
+    font-size: 17px;
+    position: relative;
+    top: 3px;
+}
+
+.top-phones .collapse.navbar-collapse.top-main ul{
+    align-items: center;
+    display: flex;
+    collapse: #fff;
+}
+
+header#navbar_top {
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+
+#header-main-top, #footer-main-bottom{
+    justify-content: center;
+}
+
+#header-main-top ul li a.nav-link.scrollto{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background: -webkit-linear-gradient(#309B93, #2B5180);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#header-main-top ul li a.nav-link.scrollto.active,
+#header-main-top ul li a.nav-link.scrollto:hover{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background: -webkit-linear-gradient(#0b6981, #1242bc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#footer-main-bottom ul li a.nav-link.scrollto{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background: -webkit-linear-gradient(#a1a1a1, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 991px){
     #home-carousel .carousel-inner .carousel-item img {
         height: 300px;
         object-fit: cover;
