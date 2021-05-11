@@ -128,9 +128,20 @@ header#navbar_top {
     display: flex;
     flex-flow: column;
     align-items: center;
-    background: -webkit-linear-gradient(#0b6981, #1242bc);
+    background: -webkit-linear-gradient(#000, #2B5180);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+#header-main-top ul li a.nav-link.scrollto .material-icons{
+    height: 25px;
+    padding-top: 5px;
+}
+#header-main-top ul li a.nav-link.scrollto.active .material-icons,
+#header-main-top ul li a.nav-link.scrollto:hover .material-icons{
+    padding-top: 0px;
+    font-size: 28px;
+    transition: .3s;
 }
 
 #footer-main-bottom ul li a.nav-link.scrollto{
