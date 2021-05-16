@@ -2,7 +2,7 @@ body{
     background-color: #fbfbfb;
 }
 h1, h2, h3, h4, h5, h6, h2 button.accordion-button{
-    background: -webkit-linear-gradient(#2B5180, #309B93);
+    background: -webkit-linear-gradient(#2B5180, #30799b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
@@ -200,13 +200,21 @@ header#navbar_top {
 
 #orcamento-modal form label{
     font-size: 18px;
-    color: #707070;
+    color: #363232;
 }
 
-#orcamento-modal form input:not([type=radio]), #orcamento-modal form select, #orcamento-modal form textarea {
+#orcamento-modal form input, #orcamento-modal form select, #orcamento-modal form textarea {
     border: 1px solid #6D6D6D;
     width: 100%;
     border-radius: 0;
+}
+
+#orcamento-modal form input[type=checkbox], #orcamento-modal form input[type=radio]{
+    width: 18px;
+    height: 18px;
+}
+#orcamento-modal form input[type=radio]{
+    border-radius: 50%;
 }
 
 #orcamento-modal form input, #orcamento-modal form textarea, #orcamento-modal radio, #orcamento-modal option, #orcamento-modal select{
@@ -233,6 +241,26 @@ header#navbar_top {
 #orcamento-modal .accordion-header button{
     position: relative;
     z-index: 2;
+}
+
+.imo-hide{
+    display: none;
+}
+
+.form-group.regulamentos-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-group.col-md-12.regulamentos-group .form-group label{
+    width: 100%;
+}
+.form-group.col-md-12.regulamentos-group .form-group {
+    width: 25%;
+}
+
+#orcamento-modal button{
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 991px){
