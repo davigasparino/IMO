@@ -445,3 +445,45 @@ ul.main-blocks li a:hover{
 #container-tabs ul.tabs li span:hover{
     border-color: #309b93;
 }
+
+#container-tabs .tab-content {
+    position: relative;
+}
+#container-tabs .tab-content .tabs-items{
+    width: 415px;
+    flex-flow: column;
+    position: absolute;
+    top: 32px;
+    left: 0px;
+    background-color: #F8FAFA;
+    border: 1px solid #209B93;
+    padding: 10px;
+    display: none;
+}
+#container-tabs .tab-content:hover .tabs-items{
+    display: flex;
+}
+#container-tabs .tab-content .tabs-items h5{
+    text-align: left;
+}
+#container-tabs .tab-content:nth-child(5) .tabs-items,
+#container-tabs .tab-content:nth-child(6) .tabs-items{
+    right: 0;
+    left: auto;
+}
+#container-tabs .tab-content ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+#container-tabs .tab-content ul li{
+    width: fit-content;
+    padding: 0px 5px;
+    height: fit-content;
+}
+#container-tabs .tab-content ul li a{
+    color: #707070;
+    text-decoration: none;
+}
