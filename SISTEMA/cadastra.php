@@ -3,7 +3,7 @@
     <section class="fluid-container p-4" id="container-tabs">
         <div class="container">
             <div class="row justify-content-md-center">
-                <div class="col-md-10">
+                <div class="col-md-10 ">
                     <ul class="tabs">
                         <li class="tab-content">
                             <a href="#"><span class="smart-number">1</span></a>
@@ -73,6 +73,40 @@
                             </div>
                         </li>
                     </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fluid-container p-4" id="container-status-bar">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-md-10 ">
+                    <h4>Cadastra</h4>
+                    <div class="all-status-content">
+                        <ul class="steps-tab">
+                            <li><a href="#">Organização</a></li>
+                            <li><a href="#">Representantes</a></li>
+                            <li><a href="#">Unidades</a></li>
+                            <li><a href="#">Regulamentos</a></li>
+                        </ul>
+                        <div class="status-bar">
+                            <div class="bar-container">
+                                <div class="bar-pointer">
+                                    <div class="status-block analise">
+                                        <img src="imgs/analiseicon.svg">
+                                        <span>Em análise</span>
+                                    </div>
+                                    <div class="status-block reprovado">
+                                        <img src="imgs/reprovadoicon.svg">
+                                        <span>Etapa não aprovada.</span>
+                                    </div>
+                                    <div class="status-block aprovado active">
+                                        <img src="imgs/aprovadoicon.svg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
