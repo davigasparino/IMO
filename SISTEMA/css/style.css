@@ -201,60 +201,6 @@ header#navbar_top .navbar-brand {
     height: 100%;
 }
 
-#orcamento-modal .form-group {
-    padding: 10px;
-}
-#orcamento-modal .form-row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
-
-#orcamento-modal form label{
-    font-size: 18px;
-    color: #363232;
-}
-
-#orcamento-modal form input, #orcamento-modal form select, #orcamento-modal form textarea {
-    border: 1px solid #6D6D6D;
-    width: 100%;
-    border-radius: 0;
-}
-
-#orcamento-modal form input[type=checkbox], #orcamento-modal form input[type=radio]{
-    width: 18px;
-    height: 18px;
-}
-#orcamento-modal form input[type=radio]{
-    border-radius: 50%;
-}
-
-#orcamento-modal form input, #orcamento-modal form textarea, #orcamento-modal radio, #orcamento-modal option, #orcamento-modal select{
-    font-size: 18px;
-}
-
-#orcamento-modal form textarea{
-    min-height: 200px;
-}
-
-#orcamento-modal .accordion-header{
-    position: relative;
-}
-#orcamento-modal .accordion-header::after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    background-color: #f1f1f1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
-#orcamento-modal .accordion-header button{
-    position: relative;
-    z-index: 2;
-}
 
 .imo-hide{
     display: none;
@@ -270,10 +216,6 @@ header#navbar_top .navbar-brand {
 }
 .form-group.col-md-12.regulamentos-group .form-group {
     width: 25%;
-}
-
-#orcamento-modal button{
-    text-transform: uppercase;
 }
 
 .top-phones .collapse.navbar-collapse.top-main ul.navbar-nav.nav-icons li{
@@ -604,4 +546,92 @@ ul.main-blocks li a:hover{
     top: -10px;
     right: -30px;
     width: fit-content;
+}
+
+.login-container.fluid-container{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background: -webkit-linear-gradient( #fcfcfc, #fcfcfc, #ececec);
+}
+.login-container.container {
+    width: 500px;
+    height: fit-content;
+    display: block;
+    border: 1px solid #6D6D6D;
+    position: relative;
+    padding: 40px 70px;
+    box-shadow: 8px 7px 24px rgba(0, 0, 0, 0.2);
+    background-color: #fcfcfc;
+}
+
+.login-container .form-group {
+    padding: 10px;
+}
+.login-container .form-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.login-container form label{
+    font-size: 18px;
+    color: #363232;
+}
+
+.login-container form input, .login-container form select, .login-container form textarea {
+    border: 1px solid #6D6D6D;
+    width: 100%;
+    border-radius: 0;
+}
+
+.login-container form input[type=checkbox], .login-container form input[type=radio]{
+    width: 18px;
+    height: 18px;
+}
+.login-container form input[type=radio]{
+    border-radius: 50%;
+}
+
+.login-container form input, .login-container form textarea, .login-container radio, .login-container option, .login-container select{
+    font-size: 18px;
+}
+
+.login-container form textarea{
+    min-height: 200px;
+}
+
+.login-container .accordion-header{
+    position: relative;
+}
+.login-container .accordion-header::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #f1f1f1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.login-container .accordion-header button{
+    position: relative;
+    z-index: 2;
+}
+.login-container button.btn{
+    text-transform: uppercase;
+    background: -webkit-linear-gradient( #304f73, #30698f);
+    color: #ffffff;
+    font-weight: 400;
+    border-radius: 0px;
+    float: right;
+    margin-top: 20px;
+}
+
+.login-container button.btn:hover{
+    transition: .2s;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
 }
