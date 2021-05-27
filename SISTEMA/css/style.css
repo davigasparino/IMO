@@ -1,5 +1,6 @@
 body{
     background-color: #FCFCFC;
+    font-size: 14px;
 }
 h1, h2, h3, h4, h5, h6, h2 button.accordion-button{
     background: -webkit-linear-gradient(#2B5180, #30799b);
@@ -8,21 +9,26 @@ h1, h2, h3, h4, h5, h6, h2 button.accordion-button{
     text-transform: uppercase;
     font-weight: bold;
 }
+h3{
+    font-size: 22px;
+}
 body, p, h1, h2, h3, h4, h5, h6, label, input, textarea, radio, checkbox{
     font-family: 'Jost', sans-serif;
 }
-
+.navbar-brand{
+    font-size: 16px;
+}
 .big-number, .smart-number{
-    font-size: 125px;
-    line-height: 105px;
+    font-size: 95px;
+    line-height: 95px;
     background: -webkit-linear-gradient( #2B5180, #2B5180, #309B93, #309B93);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
 }
 .smart-number{
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 22px;
+    line-height: 22px;
 }
 .username, p{
     font-size: 20px;
@@ -111,7 +117,7 @@ ul#list-collapse-query {
 }
 
 .navbar-brand img{
-    width: auto;
+    width: 85px;
     height: auto;
 }
 
@@ -154,11 +160,15 @@ header#navbar_top .navbar-brand {
     flex-flow: column;
     align-items: center;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     color: #707070;
     border-bottom: 1px solid transparent;
     line-height: 2;
+}
+#header-main-top ul li a.nav-link.scrollto img {
+    width: auto;
+    height: 34px;
 }
 
 #header-main-top ul li a.nav-link.scrollto span{
@@ -391,7 +401,7 @@ header#navbar_top .navbar-brand {
 .card-item-block {
     border: 1px solid #707070;
     margin-bottom: 25px;
-    min-height: 345px;
+    min-height: 255px;
 }
 ul.main-blocks {
     width: 100%;
@@ -413,7 +423,7 @@ ul.main-blocks li:last-child{
 
 ul.main-blocks li a{
     text-align: right;
-    font-size: 20px;
+    font-size: 16px;
     color: #707070;
     font-weight: 400;
     text-decoration: none;
@@ -456,7 +466,7 @@ ul.main-blocks li a:hover{
     width: 415px;
     flex-flow: column;
     position: absolute;
-    top: 32px;
+    top: 24px;
     left: 0px;
     background-color: #F8FAFA;
     border: 1px solid #209B93;
