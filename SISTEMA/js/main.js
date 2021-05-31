@@ -28,3 +28,13 @@ $('.nav-item.notificate-grid span.material-icons.icon, .nav-item.notificate-grid
     $('.notifications-container').hide();
     $(this).parents('.nav-item.notificate-grid').find('.notifications-container').show();
 });
+
+$(document).ready(function(){
+   $('#assinaturacontrato').change(function(){
+       if($(this).prop('checked') === true){
+           $('#contrato-assinatura').prop('disabled', false);
+       }else{
+           $('#contrato-assinatura').prop('disabled', true);
+       }
+   });
+});

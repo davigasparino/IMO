@@ -635,3 +635,22 @@ ul.main-blocks li a:hover{
     transition: .2s;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
 }
+
+#imo-contrato p{
+    font-size: 16px;
+}
+
+#imo-contrato ul li.title {
+    list-style: upper-roman;
+    padding: 2px 4px;
+}
+
+#imo-contrato ul li.title ol {
+    padding: 6px 0;
+    list-style: inside decimal;
+}
+
+#imo-contrato ul li.title ol li ul {
+    list-style: inside;
+    padding: 5px 20px;
+}
